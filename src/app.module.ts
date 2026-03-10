@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { BookmarksModule } from './bookmarks/bookmarks.module';
+import { BookmarksApiModule } from './api/bookmarks/bookmarks-api.module';
 
 @Module({
-  imports: [BookmarksModule],
+  imports: [BookmarksApiModule],
   controllers: [AppController],
   providers: [AppService],
 })

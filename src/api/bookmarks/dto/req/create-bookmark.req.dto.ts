@@ -1,4 +1,4 @@
-export class CreateBookmarkDto {
+export class CreateBookmarkReqDto {
   title: string;
   url: string;
   description?: string;
