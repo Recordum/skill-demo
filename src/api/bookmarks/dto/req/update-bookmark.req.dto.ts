@@ -1,4 +1,4 @@
-export class UpdateBookmarkDto {
+export class UpdateBookmarkReqDto {
   title?: string;
   url?: string;
   description?: string;
